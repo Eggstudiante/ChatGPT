@@ -1,0 +1,132 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li, a, form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto principal */
+}
+
+/* Encabezado */
+header {
+    background-color: #0099cc; /* Azul claro */
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    margin: 0 20px;
+}
+
+header nav a {
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#about {
+    background-color: #fff; /* Fondo blanco */
+    max-width: 100%;
+    height: auto;
+}
+
+#skills {
+    background-color: #e6e6e6; /* Fondo gris claro */
+}
+
+#projects {
+    background-color: #fff; /* Fondo blanco */
+}
+
+.project {
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#experience {
+    background-color: #e6e6e6; /* Fondo gris claro */
+}
+
+.job {
+    margin: 20px 0;
+}
+
+#contact {
+    background-color: #fff; /* Fondo blanco */
+}
+
+#testimonials, #blog, #resources, #subscribe {
+    background-color: #e6e6e6; /* Fondo gris claro */
+}
+
+/* Pie de página */
+footer {
+    background-color: #0099cc; /* Azul claro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Estilo de botón */
+button {
+    background-color: #0099cc; /* Azul claro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0077aa; /* Azul un poco más oscuro al pasar el mouse */
+}
+
+/* Formulario de suscripción */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+/* Media Queries para diseño responsivo */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav li {
+        margin: 10px 0;
+    }
+}
